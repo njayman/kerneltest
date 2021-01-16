@@ -11,7 +11,7 @@ app.use('/', (req, res) => {
 console.log(process.env.DBNAME)
 console.log(process.env.DBUSER)
 console.log(process.env.DBPASS)
-
+console.log('hello')
 
 const PORT = process.env.PORT
 
