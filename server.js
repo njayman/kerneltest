@@ -5,7 +5,7 @@ dotenv.config();
 const app = express()
 
 app.use('/', (req, res) => {
-    res.json('Hello')
+    res.json('Hello world')
 })
 
 console.log(process.env.DBNAME)
